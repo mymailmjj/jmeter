@@ -131,6 +131,20 @@ project("jms") {
     }
 }
 
+project("rocketmq") {
+    dependencies {
+        implementation("org.apache.rocketmq:rocketmq-client:4.6.1")
+        implementation("org.apache.rocketmq:rocketmq-common:4.6.1")
+        implementation("org.apache.rocketmq:rocketmq-remoting:4.6.1")
+        implementation("org.apache.rocketmq:rocketmq-logging:4.6.1")
+        implementation("com.alibaba:fastjson:1.2.61")
+        implementation("commons-digester:commons-digester:1.8.1")
+        implementation("commons-validator:commons-validator:1.6")
+        implementation("io.netty:netty-all:4.0.42.Final")
+        implementation("io.netty:netty-tcnative-boringssl-static:1.1.33.Fork26")
+    }
+}
+
 project("junit") {
     dependencies {
         api("junit:junit")

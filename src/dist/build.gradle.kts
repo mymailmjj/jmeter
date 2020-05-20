@@ -44,6 +44,7 @@ var jars = arrayOf(
         ":src:protocol:ldap",
         ":src:protocol:mail",
         ":src:protocol:mongodb",
+        ":src:protocol:rocketmq",
         ":src:protocol:native",
         ":src:protocol:tcp")
 
